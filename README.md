@@ -3,7 +3,7 @@ Simple Form Validation Javascript
 
 ## Example
 Form:
-```
+```html
 <form action="" method="post" id="form_register">
     <label for="name">Name</label><br/>
     <input type="text" name="name" value="" id="name"><br/>
@@ -15,7 +15,7 @@ Form:
 </form>
 ```
 JS:
-```
+```javascript
 var fv = new FV('form_register');
 fv.set('name', 'Name is required!');
 fv.set('email', 'Email is required!');
