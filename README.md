@@ -14,7 +14,7 @@ Form:
     <input type="submit" name="" value="Register">
 </form>
 ```
-Javascript:
+JS:
 ```
 var fv = new FV('form_register');
 fv.set('name', 'Name is required!');
